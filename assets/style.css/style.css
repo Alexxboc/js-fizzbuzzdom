@@ -1,0 +1,32 @@
+/* Coomon rules */
+
+body {
+    background-color: #183A4A;
+    text-align: center;
+}
+
+/* Title */
+
+.title {
+    color: white;
+    font-weight: 900;
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+/* Container */
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 1px solid yellow;
+    color: yellow;
+}
