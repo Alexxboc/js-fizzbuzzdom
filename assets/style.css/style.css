@@ -22,14 +22,13 @@ body {
     column-gap: 20px;
     row-gap: 20px;
     flex-wrap: wrap;
-    width: 54%;
+    width: 50%;
 
 }
 
 .square {
     width: 100px;
     height: 100px;
-    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
