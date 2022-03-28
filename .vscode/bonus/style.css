@@ -1,0 +1,60 @@
+/* Coomon rules */
+
+body {
+    background-color: #183A4A;
+    text-align: center;
+}
+
+/* Title */
+
+.title {
+    color: white;
+    font-weight: 900;
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+/* Container */
+
+.container {
+    margin: auto;
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    width: 54%;
+
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.green {
+    background-color: greenyellow;
+    color: crimson;
+    font-size: 40px;
+}
+
+.yellow {
+    background-color: orange;
+    color: green;
+    font-size: 30px;
+}
+
+.red {
+    background-color: crimson;
+    font-size: 20px;
+    font-weight: 500;
+}

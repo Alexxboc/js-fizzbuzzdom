@@ -9,10 +9,9 @@ for (let i = 1; i <= 100; i++){
 
 // Stampa i numeri divisibili sia per 3 che per 5
     if ((i % 3 == 0) && (i % 5 == 0)) {
-        console.log(`FizzBuzz`)
         markup = `
         <div class="square red">
-        <div>fizzbuzz</div>
+        <div>fizzbuzz ${i}</div>
         </div>`
         numbersElement.insertAdjacentHTML
         (`beforeend`, markup)
@@ -20,7 +19,6 @@ for (let i = 1; i <= 100; i++){
 
 // Stampa i numeri divisibili per 3 
     else if (i % 3 == 0) {
-        console.log(`Fizz`)
         markup = `
         <div class="square green">
         <div>fizz</div>
@@ -31,7 +29,6 @@ for (let i = 1; i <= 100; i++){
 
 // Stampa i numeri divisibili per 5
     else if (i % 5 == 0) {
-        console.log(`Buzz`)
         markup = `
         <div class="square yellow">
         <div>buzz</div>
@@ -42,7 +39,6 @@ for (let i = 1; i <= 100; i++){
 
 // Stampa i numeri restanti
     else {
-        console.log(i)
          markup = `
         <div class="square blue">
         <div>${i}</div>
