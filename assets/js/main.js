@@ -1,5 +1,5 @@
 // Seleziona il container 
-const numbersElement = document.querySelector(`.container`)
+const numbersElement = document.querySelector(`.row`)
 
 // Stampa un ciclo da 1 a 100
 for (let i = 1; i <= 100; i++){
@@ -11,7 +11,7 @@ for (let i = 1; i <= 100; i++){
     if ((i % 3 == 0) && (i % 5 == 0)) {
         console.log(`FizzBuzz`)
         markup = `
-        <div class="square red">
+        <div class="col red">
         <div>fizzbuzz</div>
         </div>`
         numbersElement.insertAdjacentHTML
@@ -22,7 +22,7 @@ for (let i = 1; i <= 100; i++){
     else if (i % 3 == 0) {
         console.log(`Fizz`)
         markup = `
-        <div class="square green">
+        <div class="col green">
         <div>fizz</div>
         </div>`
         numbersElement.insertAdjacentHTML
@@ -33,7 +33,7 @@ for (let i = 1; i <= 100; i++){
     else if (i % 5 == 0) {
         console.log(`Buzz`)
         markup = `
-        <div class="square yellow">
+        <div class="col yellow">
         <div>buzz</div>
         </div>`
         numbersElement.insertAdjacentHTML
@@ -44,7 +44,7 @@ for (let i = 1; i <= 100; i++){
     else {
         console.log(i)
          markup = `
-        <div class="square blue">
+        <div class="col blue">
         <div>${i}</div>
         </div>`
 

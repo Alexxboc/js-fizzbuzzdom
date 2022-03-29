@@ -25,16 +25,19 @@ body {
 .container {
     margin: auto;
     display: flex;
+    max-width: 1200px;
+}
+
+.row {
+    display: flex;
     column-gap: 20px;
     row-gap: 20px;
     flex-wrap: wrap;
-    width: 50%;
-
 }
 
-.square {
-    width: 100px;
-    height: 100px;
+.col {
+    width: calc(100% / 7 - 20px);
+    aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
     align-items: center;
